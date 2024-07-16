@@ -1,0 +1,88 @@
+/*
+Title: Pokemon Master
+
+Tainer´s Name
+
+Town
+
+Region
+
+How many badget do you have?
+
+Trainer phrase
+
+Favorite Generation of Pokemon
+
+Favorite Inicial Type
+
+What are you looking for in a pokemon?
+
+Do you have any legendary Pokemon?
+
+submit
+*/
+body{
+  
+  font-family: Tahoma;
+  margin:0;
+  background-image: url(https://www.nintendo.co.jp/wallpaper/Pokemon_SS_thanks/img/Pokemon_SS_thanks_1536_2048.jpg);
+  
+}
+
+h1, p, legend {
+  margin:1em auto;
+  text-align:center;
+  color:#fcf7d1;
+}
+img{
+  display:block;
+  padding:;
+  width: 50px;
+  height: auto;
+  margin:auto;
+}
+h1{
+  font-size:55px
+}
+p{
+  font-size:20px;
+  font-weight:bold;
+}
+form{
+  width: 80vw;
+  max-width: 450px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 6em;
+}
+
+label {
+  display: block;
+  margin: 0.7rem 50;
+  color:#fcf7d1;
+
+}
+input{
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+}
+.check{
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+  display:inline;
+}
+fieldset{
+  border-right:none;
+  border-left:none;
+  border-bottom:none;
+  margin:20px;
+  padding: 2rem 0;
+}
+div{
+    background: linear-gradient(45deg, #6f0000, rgb(240,0, 0), #b52c00);
+    background-size: 500px 1450px; 
+    background-position: center -40px;
+  background-repeat: no-repeat;
+}
