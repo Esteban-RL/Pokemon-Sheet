@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Pokemon Master</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div>
+    <h1 id="title">Pokemon Master</h1>
+    <p id="description">So do you wanna be the very best?</p>
+    <img src="https://pic.onlinewebfonts.com/thumbnails/icons_573410.svg" alt="coffee icon"/>
+    <!-- formulario-->
+    <form method="POST" action='https://pokemon-invented-page-example.com.ar' id="survey-form">
+      <fieldset>
+        <label id="name-label">Trainer´s Name: 
+          <input 
+            type= "text" 
+            id= "name" 
+            name= "name" 
+            placeholder="Enter your Name"
+            required
+          />
+        </label>
+        <label id="email-label">Trainer´s email: 
+          <input 
+          type= "email" 
+          id= "email" 
+          name= "email" 
+          placeholder="Enter your Email"
+          required
+          />
+        </label>
+        <label for="region">Region: 
+          <select id="region" name="region">
+            <option value="">(select one)</option>
+            <option value="1">Kanto</option>
+            <option value="2">Johto</option>
+            <option value="3">Hoenn</option>
+            <option value="4">Sinnoh</option>
+          </select>
+        </label>
+        <label for="town">Town:
+          <input i
+            d="town" 
+            name="town" 
+            type="text" 
+            required
+          />
+        </label>
+        <label id="number-label">How many badges do you have?:
+          <input 
+          type="number" 
+          id="number" 
+          name="number" 
+          min="0" 
+          max="8" 
+          placeholder="Enter Number"
+          required
+          />
+        </label>
+        <label for="phrase">Trainer Phrase:
+        <textarea id="phrase" name="phrase" rows="3" cols="40" placeholder="I'm gonna catch'em all!"></textarea>
+      </fieldset>
+      <fieldset>
+<label for="dropdown">Favorite Generation of Pokemon:
+          <select id="dropdown" name="dropdown">
+            <option value="">(select one)</option>
+            <option value="1">First Generation</option>
+            <option value="2">Second Generation</option>
+            <option value="3">Third Generation</option>
+            <option value="4"> Fourth Generation</option>
+          </select>
+        </label>
+        <label for="inicial">Favorite Inicial Type: 
+          <select id="inicial" name="inicial">
+            <option value="">(select one)</option>
+            <option value="1">Fire</option>
+            <option value="2">Water</option>
+            <option value="3">Plant</option>
+          </select>
+        </label>
+        </fieldset>
+        <fieldset>
+            <legend>What are you looking for un a Pokemon?</legend>
+        <label for= "personality">
+          <input 
+            id="personality" 
+            type="checkbox" 
+            name="personality" 
+            value="personality" 
+            class="check"
+          /> Personalty
+        </label>
+        <label for="stats">
+          <input 
+            id="stats" 
+            type="checkbox" 
+            name="stats" 
+            value="stats" 
+            class="check"
+          /> Stats
+        </label>
+        <label for="style">
+          <input 
+            id="style" 
+            type="checkbox" 
+            name="style" 
+            value="style" 
+            class="check"
+          /> Style/shiny
+        </label>
+        </fieldset>
+        <fieldset>
+            <legend>Do you have any legendary Pokemon?</legend>
+            <label>
+              <input 
+                id="no" 
+                type="radio" 
+                name="legendary" 
+                value="no" 
+                checked class="check"
+              /> No
+            </label>
+            <label>
+              <input 
+                id="yes" 
+                type="radio" 
+                name="legendary" 
+                value="yes" 
+                class="check"
+              /> Yes
+            </label>
+          </fieldset>
+          <input 
+            type="submit" 
+            value="Submit"
+            id="submit"
+          />
+          </div>
+    </form>
+  </body>
+</html>
